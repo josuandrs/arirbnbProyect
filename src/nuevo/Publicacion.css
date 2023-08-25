@@ -1,0 +1,74 @@
+.card{
+    display: flex;
+    flex-direction: column;
+    width: 395px;
+    height: 350px;
+    margin-top: 15px;
+}
+
+.imgBox{
+    position: relative;
+    width:395px;
+    height: 270px;
+    
+}
+
+.imgBox img{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+    object-fit: cover;
+}
+
+.informacion{
+    font-family: 'Montserrat', sans-serif;
+}
+
+.superHost > span {
+    font-weight: 700;
+    font-size: 12px;
+}
+
+.superHost{
+    color: #4F4F4F;
+    border: 1px solid #4F4F4F;
+    border-radius: 14px;
+    padding: 3px 12px;
+}
+
+.type_rating{
+    display: flex;
+    justify-content: space-between;
+    margin: 15px 0;
+    align-items: baseline;
+}
+
+
+.tipo > span{
+    color: #828282;
+    font-weight: 500;
+    font-size: 14px;
+}
+
+
+.rating h3 {
+    font-weight: 500;
+    font-size: 14px;
+}
+
+.rating h3 i {
+    color: #EB5757;
+}
+
+.title{
+    font-size: 14px;
+    
+}
+
+.title > h2{
+    font-weight: 600;
+    font-size: 16px;
+}
+
+
